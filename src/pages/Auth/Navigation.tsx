@@ -78,6 +78,17 @@ const Navigation: React.FC = () => {
                         </span>
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to={"/register"}
+                        className="flex items-center transition-transform transform hover:translate-x-2 !text-white"
+                    >
+                        <AiOutlineUserAdd className="mr-2 mt-[3rem] transition-all" size={26} />
+                        <span className="hidden nav-item-name mt-[3rem] transition-all">
+                            Login
+                        </span>
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
